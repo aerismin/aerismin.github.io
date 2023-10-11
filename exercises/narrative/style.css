@@ -1,0 +1,26 @@
+.container {
+    width:600px;
+    display:flex;
+    align-items: flex-start;
+    text-align:center;
+    margin:auto;
+}
+
+h1 {
+    font-size:24px;
+    text-align:center;
+}
+
+p {
+    font-size:20px;
+    text-align:center;
+}
+
+img {
+    width:500px;
+    padding:20px;
+}
+
+a {
+    margin-top:50px;
+}
