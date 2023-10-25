@@ -9,33 +9,41 @@ body {
     font-family: 'Public Sans', sans-serif;
     margin:0;
 }
+
 img {
     width:100%;
 }
+
 .desc {
     display:flex;
 }
+
 h1.big {
     font-size:220px;
 }
+
 .arborvitae h1.big {
-color:aquamarine;
+    color:aquamarine;
 }
+
 .arborvitae .desc {
     justify-content: flex-end;
     margin-right:60px;
     width:80%;
     margin:auto;
 }
-.arborvitae .desc p{
+
+.arborvitae .desc p {
     width: 45%;
 }
+
 .callalily .desc {
     justify-content: flex-end;
     margin-right:60px;
     width:80%;
     margin:auto;
 }
+
 .callalily .desc p{
     width: 65%;
 }
@@ -53,9 +61,6 @@ color:aquamarine;
  padding-right:40px;
 }
 
-/* .arborvitae h3::before {
-    content: url('assets/arb-icon.png');
-} */
 .arborvitae h3 {
     background-image:url('assets/arb-icon.png');
     background-repeat: no-repeat;
@@ -66,12 +71,14 @@ color:aquamarine;
     padding-top:10px;
     margin:0;
 }
+
 body.arborvitae {
 background-image:url('assets/arborgraphic-bg.png');
 background-size:60%;
 background-repeat:no-repeat;
 background-position: 0% 200px;
 }
+
 h1.title  {
     justify-content: center;
     align-items: center;
@@ -112,18 +119,20 @@ h2 {
 }
 
 .navgrid {
-    width:50%;
-    margin:auto;
+    width: 50%;
+    margin: auto;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 70px;
 }
 
 .navgrid div {
-    flex:50%;
+    flex: 50%;
 }
+
 .navgrid img {
-    z-index:99;
+    z-index: 99;
 }
