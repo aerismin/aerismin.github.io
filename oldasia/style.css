@@ -13,8 +13,9 @@ body {
 
 h2 {
     font-size:76px;
+    font-family: 'Old Standard TT', serif;
     font-weight:100;
-    line-height:50%;
+    line-height:80%;
 }
 
 h3 {
@@ -76,8 +77,28 @@ img {
     display:flex;
 }
 
+.container2 {
+    display:flex;
+}
+
+.container3 {
+    display:flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.container3 h2 {
+    line-height:100%;
+}
+
 .asideimg {
     width:50%;
+    border-right:5px #000 solid;
+    margin-bottom:-5px;
+}
+
+.asideimg2 {
+    width:146%;
     border-right:5px #000 solid;
     margin-bottom:-5px;
 }
@@ -148,11 +169,25 @@ img {
     color:#F0E3DC;
 }
 
+.infobox {
+    padding:50px;
+    border-right:5px #000 solid;
+    border-bottom:5px #000 solid;
+    width:50%;
+}
+
+.infobox2 {
+    padding:50px;
+    border-right:5px #000 solid;
+    width:50%;
+    margin:auto;
+}
+
 form {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    padding:10px;
+    gap: 50px;
+    padding:50px;
 }
 
 label {
@@ -163,19 +198,36 @@ label {
 input,
 textarea {
     width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
     box-sizing: border-box;
+    border:none;
+    background-color: #F0E3DC;
+}
+
+#phone {
+    font-family:'Cousine', monospace;
 }
 
 input[type="submit"] {
-    background-color: #4caf50;
-    color: white;
+    background-color: #F0E3DC;
+    color: #000;
     cursor: pointer;
+    font-family:'Cousine', monospace;
+    font-size:12px;
+    text-transform: uppercase;
+    border:none;
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #000;
+    color:#F0E3DC;
+}
+
+.vid {
+    margin:auto;
+    padding:50px;
+    text-align: center;
 }
 
 footer {
@@ -183,7 +235,7 @@ footer {
     color: #F0E3DC;
     font-size:14px;
     text-align: left;
-    padding: 20px;
+    padding: 50px;
     display: flex;
 }
 
