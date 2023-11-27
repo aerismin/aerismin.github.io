@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old Asia Teahouse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="assets/logo-full.png">
+    <a href="about.html">about</a>
+    <a href="menu.html">menu</a>
+    <a href="reserve.html">reserve</a>
+    <a href="events.html">events</a>
+
+    <p>We accept reservations up to a week (7 days) in advance.<br>
+        Due to limited capacity, please ensure all contact information is accurate to ensure clear communication in the event of any issues with the reservation.</p>
+
+    <form action="submit_form.php" method="post">
+        <div class="formcol">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" max="8" required>
+            <br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div class="formcol">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Enter 10-digit phone number" required>
+         <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        </div>
+        <div class="formcol">
+        <label for="accommodations">Additional Accommodations:</label>
+        <textarea id="accommodations" name="accommodations" rows="4"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+        </div>
+        </form>
+</body>
+</html>
