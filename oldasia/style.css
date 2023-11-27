@@ -107,6 +107,7 @@ img {
     font-family: 'Old Standard TT', serif;
     margin:auto;
     padding:20px;
+    color:#000;
 }
 
 .menunav a:hover {
@@ -158,6 +159,10 @@ img {
     margin:auto;
     padding:20px;
     text-align:left;
+    color:#F0E3DC;
+}
+
+#navlinks a {
     color:#F0E3DC;
 }
 
