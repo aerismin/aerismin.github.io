@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
 
 * {
     box-sizing: border-box;
@@ -6,12 +6,49 @@
 
 body {
     background-color: white;
-    font-family: 'Cousine', serif;
+    font-family: 'Cousine', monospace;
+    color:#000;
     margin:0;
 }
 
 img {
     width:100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+}
+
+.logo img {
+    width:200px;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    background-color:#000;
+}
+
+.topnav a {
+    font-family: 'Old Standard TT', serif;
+    font-style:italic;
+    font-size: 24px;
+    color:#F0E3DC;
+    text-decoration: none;
+    padding:10px;
+}
+
+.topnav a:hover {
+    font-style:normal;
+}
+
+.menunav {
+    font-family: 'Old Standard TT', serif;
 }
 
 form {
