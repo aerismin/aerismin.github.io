@@ -11,6 +11,30 @@ body {
     margin:0;
 }
 
+h2 {
+    font-size:76px;
+    font-weight:100;
+    line-height:50%;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+#current {
+    color:#fff;
+    text-decoration: line-through;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
 img {
     width:100%;
 }
@@ -20,6 +44,7 @@ img {
     align-items: center;
     justify-content: center;
     padding:20px;
+    background-color: #fff;
 }
 
 .logo img {
@@ -47,8 +72,80 @@ img {
     font-style:normal;
 }
 
+.container {
+    display:flex;
+}
+
+.asideimg {
+    width:50%;
+    border-right:5px #000 solid;
+    margin-bottom:-5px;
+}
+
 .menunav {
     font-family: 'Old Standard TT', serif;
+    margin:auto;
+    padding:20px;
+}
+
+.menunav a:hover {
+    font-style: italic;
+}
+
+#image-column {
+    width:50%;
+    position: relative;
+    overflow: hidden;
+}
+
+#image-container {
+    position: relative;
+    margin-bottom:-5px;
+}
+
+#image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    color: white;
+    margin-bottom:-5px;
+}
+
+#image-overlay {
+    opacity: 1;
+}
+
+#text-column {
+    padding: 50px;
+    width:50%;
+    line-height:100%;
+    margin-bottom:-50px;
+}
+
+#text-column p {
+    font-size:14px;
+    margin-top:-5px;
+    margin-bottom:30px;
+}
+
+#nav-links {
+    font-family: 'Old Standard TT', serif;
+    margin:auto;
+    padding:20px;
+    text-align:left;
+    color:#F0E3DC;
+}
+
+#nav-links a:hover {
+    font-style:italic;
+}
+
+#nav-links a:visited {
+    color:#F0E3DC;
 }
 
 form {
@@ -79,4 +176,17 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #45a049;
+}
+
+footer {
+    background-color: #000;
+    color: #F0E3DC;
+    font-size:14px;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+}
+
+.footercol:nth-child(2) {
+    padding-left: 60px;
 }
