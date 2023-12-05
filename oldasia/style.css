@@ -114,6 +114,10 @@ img {
     color:#000;
 }
 
+.menunav a {
+    color:#000;
+}
+
 .menunav a:hover {
     font-style: italic;
 }
@@ -263,11 +267,11 @@ footer {
         border-bottom:5px #000 solid;
     }
 
-    img {
+    #image-container img {
         display:none;
     }
 
-    .asideimg {
+    .asideimg, .asideimg2 img {
         display: none;
     }
 
